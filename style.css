@@ -1,0 +1,125 @@
+body {
+  background: -moz-linear-gradient(top, rgba(71, 107, 107,1) 0%, rgba(117, 163, 163, 1) 31%, rgba(163, 194, 194, 1) 85%, rgba(224, 235, 235, 1) 100%);
+}
+
+table {
+  position: relative;
+  float: right;
+  clear: right;
+  bottom: 70px;
+  font-family: Georgia;
+  box-shadow: 5px 5px 10px #333333;
+  background: rgba(250,222,120,1);
+  background: -moz-linear-gradient(top, rgba(210, 121, 121, 1) 0%, rgba(230, 230, 0, 1) 100%);
+}
+
+caption {
+  font-family: Monospace;
+  font-size: 140%;
+  font-weight: bold;
+  background: rgba(168,128,69,1);
+  background: -moz-linear-gradient(top, rgba(177, 225, 231, 1) 0%, rgba(79, 187, 201, 1) 31%, rgba(48, 143, 156, 1) 85%, rgba(24, 72, 78, 1) 100%);
+} 
+
+td:first-of-type {
+  box-shadow: 5px 5px 10px #333333;
+}
+
+tr:last-of-type,tr:nth-last-of-type(2) {
+  font-weight: bold;
+}
+
+#logo {
+  max-width: 400px;
+  margin: 0px auto;
+  width: 100%;
+}
+
+#deslabel {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+#text {
+  color: rgb(77, 77, 77);
+  border-color: rgb(230, 230, 0);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-radius: 15px 0px 15px 0px;
+  position: absolute;
+  bottom: 5%;
+  width: 80%;
+  font-family: Monospace;
+}
+
+#lancer {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+@font-face {
+  font-family: first_font;
+  src: url(Fonts/lagu.otf);
+}
+
+#lancer input {
+  background-color: rgb(210, 121, 121);
+  font-family: first_font;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(210, 121, 121);
+  font-weight: bold;
+  font-family: first_font;
+}
+
+#start_button {
+  position: absolute;
+  top: 20%;
+  left: 33%;
+}
+
+@font-face {
+  font-family: second_font;
+  src: url(Fonts/wildriver.otf);
+}
+
+p:first-of-type {
+  color: black;
+  font-weight: bold;
+  font-size: 130%;
+  font-family: second_font;
+}
+
+.text input {
+  color: white;
+  background-color: white;
+}
+
+.button:hover + .text input {
+  color: black;
+  background-color: white;
+}
+
+#about {
+  position: absolute;
+  bottom: 26%;
+  width: 98.7%;
+  text-align: center;
+  font-family: first_font;
+  font-weight: bold;
+  font-size: 100%;
+  border-color: rgb(24, 72, 78);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-radius: 15px 0px 15px 0px;
+  background: -moz-linear-gradient(top, rgba(210, 121, 121, 1) 0%, rgba(230, 230, 0, 1) 100%);
+}
+ 
+#nv_p {
+  font-family: first_font;
+  font-size: 100%;
+}
